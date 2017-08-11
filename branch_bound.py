@@ -86,7 +86,7 @@ def move(init):
 		max=-10
 		index=-1
 		for i in range(0,4):
-			if(children[i]!=None&&children[i].cost>max):
+			if(children[i]!=None and children[i].cost>max):
 				max=children[i].cost
 				index=i
 		current=children[index]
