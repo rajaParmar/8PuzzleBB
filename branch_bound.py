@@ -68,7 +68,7 @@ make_grid(nums,init)
 
 def move(init):
 	row=[-1,1,0,0]
-	col=[0,0,-1,1]
+	col=[0,0,-1,1]#left right up and down
 	current=grid_node(init,0,[],None)
 	children=[0,0,0,0]
 	
